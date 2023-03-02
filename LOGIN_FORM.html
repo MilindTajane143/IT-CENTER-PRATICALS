@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body{
+            background-color: crimson;
+        }
+        .main{
+            background-color: orange;
+            height: 480px;
+            width: 300px;
+            margin: 100px auto;
+            border-radius: 5%;
+            overflow: hidden;
+        }
+
+        .inner{
+            background-color: green;
+            height: 40px;
+            width: 300px;
+            margin: 0px auto;
+            padding: 15px;
+        }
+        .heading{
+            text-align: center;
+            padding-right: 18px;
+        }
+        .input{
+            margin-top: 10px;
+            padding-top: 10px;
+            margin-left: 10px;
+            border-radius: 7px;
+            height: 30px;
+            border: none;
+            outline: none;
+        }
+        .label{
+            padding-left: 10px;
+            font-size: large;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .login{
+            border-radius: 20px;
+            margin-top:15px;
+            margin-left: 10px;
+            height: 50px;
+            width: 280px;
+            font-size: large;
+            font-family:fantasy;
+            font-style: italic;
+            background-color: black;
+            color:chartreuse;
+        }
+        .login:hover{
+            background-color:darkgrey;
+        }
+        .ahref{
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <div class="main">
+        <div class="inner">
+            <h3 class="heading">Login Form</h3>
+        </div><br>
+        <label class="label">Username</label><br>
+        <input class="input" type="text" name="User" placeholder="Enter Username"size="30" autofocus>
+        <br><br>
+        <label class="label">Password</label><br>
+        <input class="input" type="password" name="Pass" placeholder="Enter Password"size="30"><br><br>
+        <button class="login">Login</button><br><br>
+        <button class="login">Clear</button><br><br>
+        <a href="#" class="ahref">Forgot Password?</a>
+    </form>
+    </div>
+</body>
+</html>
