@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-properties</title>
+    <style>
+        .img {
+            height: 500px;
+            width: 500PX;
+            border: 10px dashed black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div onclick="myfun()" id="div">
+        <img class="img" src="love.jpg" alt="love you">
+    </div>
+
+    <script>
+        function myfun() {
+            let a = prompt("Do You Love Me??");
+            document.write(a);
+
+            if (a == 'yes') {
+                document.write('<h3>I Love You Too....</h3>');
+            }
+            else {
+                document.write('<h5>I hate you</h5>');
+            }
+        }
+    </script>
+</body>
+
+</html>
