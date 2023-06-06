@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body
+        {
+            background-image: url(mkt.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .main
+        {
+            height: 400px;
+            width: 300px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0));
+            backdrop-filter: blur(2px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.87);
+            margin: 100px auto;
+        }
+
+
+        .inp1
+        {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.30),rgba(255, 255, 255, 0));
+            border: none;
+            outline: none;
+            border-bottom: 1px solid grey;
+            margin-left: 15% ;
+            padding: 10px;
+        }
+
+        .inp1:hover
+        {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0));
+        }
+        .inp2
+        {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.30),rgba(255, 255, 255, 0));
+            border: none;
+            outline: none;
+            border-bottom: 1px solid grey;
+            margin-left: 15% ;
+            padding: 10px;
+        }
+
+
+        .inp2:hover
+        {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0));
+        }
+
+        .login
+        {
+            text-align: center;
+            padding: 5px;
+        }
+
+        .buttons
+        {
+            background: linear-gradient(135deg, rgba(82, 76, 76, 0.3),rgba(255, 255, 255, 0));
+            border: none;
+            outline: none;
+            padding: 10px;
+            width: 100px;
+            margin: 8px 0px 0px 40px;
+            font-size: large;
+            font-family: monospace;
+            color: grey;
+        }
+
+        .buttons:hover
+        {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0));
+            color: linear-gradient(135deg, rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0));
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form action="">
+                <legend style="color:darkslategray; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="login">Login Form</legend><br><br>
+                <input type="text" name="user" placeholder="Username" class="inp1" size="25" required><br> <br>
+                <input type="password" name="pass" placeholder="Enter Password Here" class="inp2" size="25" required> <br> <br>
+                <input type="password" name="pass" placeholder="Enter  Confirm Password Here" class="inp2" size="25" required> <br> <br>
+                <input type="text" name="age" placeholder="Enter Your Age Here" class="inp2" size="25" required> <br> <br>
+                <input type="button" value="Login" class="buttons">
+                <input type="button" value="Reset" class="buttons">
+        </form>
+    </div>
+</body>
+</html>
